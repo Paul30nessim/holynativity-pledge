@@ -244,8 +244,8 @@ function Home() {
             <div>
               <span className="eyebrow">THE JOY OF GIVING</span>
               <blockquote>
-                “Each of you should give as you have purposed in your heart, not
-                reluctantly or under compulsion, for God loves a cheerful
+                “So let each one give as he purposes in his heart, not
+                grudgingly or of necessity, for God loves a cheerful
                 giver.”
               </blockquote>
               <cite>2 CORINTHIANS 9:7</cite>
