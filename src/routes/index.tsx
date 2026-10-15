@@ -139,7 +139,6 @@ function Home() {
     <>
       <div className="topline">
         <div className="container">
-          <span>A faithful community. A lasting home.</span>
           <a href="https://www.hncoc.org/" target="_blank" rel="noreferrer">
             Visit our main church website <ArrowUpRight size={12} />
           </a>
@@ -259,7 +258,7 @@ function Home() {
                 <div className="eyebrow">TOGETHER, WE BUILD</div>
                 <h2>Our Church Improvement Projects</h2>
               </div>
-              <span className="section-number">01 / OUR PROJECTS</span>
+              <span className="section-number"></span>
             </div>
             <p className="intro">
               As our Holy Nativity family continues to grow, we are working
@@ -408,12 +407,12 @@ function Home() {
               <div>
                 <div className="eyebrow">A GIFT FOR GENERATIONS</div>
                 <h2>
-                  Leave a Lasting Gift —<br />
+                  Put your hands together —<br />
                   <em>Sponsor a Window</em>
                 </h2>
                 <p className="intro">
-                  Families and individuals may sponsor one of the 36 replacement
-                  windows for approximately {money(content.windowAmount)} each.
+                  Families and individuals may sponsor one or more of the 36 replacement
+                  windows for {money(content.windowAmount)} each.
                   Select an available window below to make your pledge.
                 </p>
               </div>
@@ -422,7 +421,7 @@ function Home() {
                 <strong>
                   36 windows.
                   <br />
-                  Countless moments of light.
+                  To change out our old ones.
                 </strong>
                 <span>
                   A meaningful way to care for the place
@@ -525,7 +524,7 @@ function Home() {
               {[
                 [
                   'Choose your gift',
-                  'Select a window or a project close to your heart. Every contribution, of any size, is welcome.',
+                  'Select a window or a project to sponser. Every contribution, of any size, is welcome.',
                 ],
                 [
                   'Make your pledge',
@@ -556,7 +555,6 @@ function Home() {
           <div className="container">
             <div>
               <span className="eyebrow light">
-                BUILT ON FAITH. CARED FOR WITH LOVE.
               </span>
               <h2>A church home for generations to come.</h2>
               <p>Thank you for being part of Holy Nativity’s future.</p>
