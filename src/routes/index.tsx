@@ -328,7 +328,7 @@ function Home() {
                       />
                       {i === 0 && (
                         <span className="photo-badge">
-                          36 WINDOWS · A LASTING GIFT
+                          49 WINDOWS · A LASTING GIFT
                         </span>
                       )}
                       <span className="project-icon">
@@ -411,7 +411,7 @@ function Home() {
                   <em>Sponsor a Window</em>
                 </h2>
                 <p className="intro">
-                  Families and individuals may sponsor one or more of the 36 replacement
+                  Families and individuals may sponsor one or more of the 49 replacement
                   windows for {money(content.windowAmount)} each.
                   Select an available window below to make your pledge.
                 </p>
@@ -419,7 +419,7 @@ function Home() {
               <div className="window-callout">
                 <Sun size={28} />
                 <strong>
-                  36 windows.
+                  49 windows.
                   <br />
                   To change out our old ones.
                 </strong>
@@ -456,7 +456,7 @@ function Home() {
               </div>
             ) : (
               <div className="window-grid">
-                {Array.from({ length: 36 }, (_, i) => {
+                {Array.from({ length: 49 }, (_, i) => {
                   const n = i + 1,
                     status = data.windows.find((w) => w.number === n)?.status,
                     available = !status,
