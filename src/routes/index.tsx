@@ -779,6 +779,8 @@ function Home() {
                       <strong>Give In Person</strong>
                       <small>
                         I will give my contribution directly to the church.
+                        Please contact Sally Farah 951-536-5812 or 
+                        Paul Nessim 951-283-7577 to arrange your contribution.
                       </small>
                     </span>
                   </label>
